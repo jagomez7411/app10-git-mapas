@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+
+ <widget xmlns   = "http://www.w3.org/ns/widgets"  
+     xmlns:gap = "http://phonegap.com/ns/1.0"  
+     id = "com.phonegap.example9a" 
+     version  = "1.0.0">  
+	 
+   <name> app9a-2017 Google Maps</name>  
+   
+   <description>  
+     Muestra la ubicacion con los mapas de google
+   </description>  
+   
+   <author href="https://build.phonegap.com" email="micorreo@gmail.com">  
+       José Antonio Gomez Hernandez
+   </author>  
+ 
+   
+   <!-- Personaliza la aplicacion y plataforma  -->  
+   <preference name="orientation"        value="default" />    
+   <preference name="target-device"       value="universal" />   
+   <preference name="fullscreen"         value="true" />      
+   <preference name="android-installLocation"  value="auto" />  
+
+<preference name="permissions" value="INTERNET" />
+
+
+
+   <!-- Plugins -->  
+   <!-- Core plugins -->  
+   <!-- plugin Geolocalizacion-->
+   <plugin name="cordova-plugin-geolocation" source="npm" />
+   <!-- Third part plugins -->  
+   
+ <!-- Para accesar a paginas en internet-->
+<allow-intent href="https://*/*"/>
+<acces origin="https://*/*"/>
+<allow-intent href="http://*/*"/>
+<acces origin="http://*/*"/>
+<plugin name="cordova-plugin-whitelist" source="npm"/>  
+   
+
+<!--Colocar icono app -->
+
+<icon src="res/android/mdpi.png"/>
+   
+
+   
+ </widget>
