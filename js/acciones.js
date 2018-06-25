@@ -109,7 +109,7 @@ function getMap(latitude, longitude) {
 alert ("get map");
     var mapOptions = {
         center: {lat: 0, lng: 0},
-        zoom: 1,
+        zoom: 18,
         mapTypeId: google.maps.MapTypeId.ROADMAP
     };
 
